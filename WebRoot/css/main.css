@@ -1,0 +1,486 @@
+@CHARSET "UTF-8";
+@font-face {
+ font-family:"微软雅黑";
+ src:url(msyh.ttf);
+} 
+*{
+	margin:0;
+	padding:0
+}
+html,body{
+	font-family:微软雅黑, tahoma, helvetica, arial, b8bf53;
+	font-size: 14px;
+	line-height:1.5;
+    
+}
+body{
+	background-color: #e5e9ec;
+	padding-top: 1px;
+	color: #333;
+	-webkit-font-smoothing: antialiased;
+}
+li {
+    list-style:none;
+}
+h1,h2,h3,h4,h5,a,span{
+	font-family:微软雅黑;
+	1px 1px 1px rgba(0,0,0,.3);
+}
+.head{
+	height:83px;
+	background:#fff;
+	position:fixed;
+	width:100%;
+	z-index:999;
+	webkit-box-shadow: #eee 0px 2px 10px;
+	-moz-box-shadow: #eee 0px 2px 10px;
+	box-shadow: #eee 0px 2px 10px;
+}
+.head-child{
+	width:940px;
+	margin:0 auto;
+	height:83px;
+}
+.head-title{
+	font-size:24px;
+	font-weight:bold;
+	line-height:83px;
+	width:120px;
+	height:24px;
+}
+.head-child h3,.head-child h4,.col-conf-button{
+	float:right;
+	
+}
+.mes-uinfo-h4{
+	line-height:55px;
+}
+
+.mes-uinfo-h3{
+	line-height:35px;
+}
+.content{
+	margin-top:153px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:70px;
+	width:940px;
+	background:#fff;
+	padding:50px 20px;
+	
+}
+.cont-main{
+	height:300px;
+	background:#0088cc url(../images/bg1.jpg) no-repeat;
+	
+}
+.left,.right{
+	width:430px;
+	float:left;
+	height:300px;
+}
+.reg-left{
+	width:500px;
+}
+.reg-right{
+	width:400px;
+	float:right;
+	margin-top:-397px;
+	padding-top:24px;
+}
+.reg-right h2{
+	font-size:20px;
+}
+.reg-right h3,.num{
+	font-size:18px;
+	color: #777;
+}
+.login-form-div,.reg-form-div{
+	padding:20px;
+	background:#fff;
+	filter:alpha(opacity=70); 
+	-moz-opacity:0.7; 
+	opacity:0.7;
+	border-radius:10px;
+	color:#0088cc;
+}
+
+.left-info,.login-form-div{
+	margin:15px 60px;
+	width:350px;
+	height:240px;
+}
+.left-info h1{
+	font-size:20px;
+	
+}
+.left-info,.left-info h1,#register_btn,#login_btn,#mes-uinfo,#mes-exam,.uin-uinfo,#uin-exam,#uin-back,.head-btn,.btn-back,button.btn.btn-default.user_btn.btn-back.sp-button a{
+	color:#fff;
+}
+.small-btn,.head-child span,.left-info h1 span,.reg-right h2,.message-h2,.mes-uinfo-h4 a:hover,.user-sword,.user-li-span,.admin-title,.admin-info,.score-color,.exam-h4-span,.exam-time,.end-minite{
+	color:#0088cc;
+}
+.btn-default:hover{
+	background:#005580;
+	color:#fff;
+}
+.register_btn,.login_btn,.user_btn{
+	background:#0088cc;
+	width:80px;
+}
+.message-h1,.message-h2,.admin-title,.admin-info,.head-bar{
+	text-align: center;
+}
+#mes-uinfo,#mes-exam,.uin-uinfo,#uin-back{
+	font-weight:bold;
+	margin-top:20px;
+	width:120px;
+	height:40px;
+}
+.btn-back{
+	font-weight:bold;
+	width:80px;
+	height:34px;
+}
+#mes-uinfo:hover,#mes-exam:hover,#uin-back:hover,.uin-uinfo:hover,#uin-exam:hover,.head-btn:hover,.btn-back:hover{
+	background:#0088c0;
+	filter:alpha(opacity=90); 
+	-moz-opacity:0.9; 
+	opacity:0.9;
+}
+#uin-back{
+	margin-left:180px;
+}
+.message-h2 span,.head-child h3,.reg-sword,.mes-uinfo-h4 a,.admin-title span,.admin-info span,.score-span{
+	color:#1a1a1a;
+}
+.message-cen{
+	width:120px;
+	height:150px;
+	margin:0 auto;
+}
+.user-right{
+	margin-top: -15px;
+}
+.uconfbtn{
+	width:240px;
+	margin:0 auto;
+}
+.userinfo-div,.user-right,.head-bar ul li,.user-conf-ul li,.user-confin-div ul li,.uconf-save{
+	float:left;
+}
+a,a:hover{
+	text-decoration:none;
+}
+.btn:hover{
+	color:#fff;
+	background:#005580;
+}
+.userinfo-div{
+	width:640px;
+}
+.userinfo-div ul li{
+	float:left;
+	width:300px;
+	height:60px;
+	margin-left:20px;
+	font-size:20px;
+}
+.userinfo-div ul li h4{
+	float:left;
+	width:150px;
+}
+.head-bar{
+	width:400px;;
+	height:83px;
+	position:adsolute;
+	margin-left:200px;
+	margin-top:-83px;
+	line-height:63px;
+}
+.head-bar ul li{
+	width:140px;
+	font-size:20px;
+	font-weight:bold;
+	font-family:微软雅黑;
+}
+.uconf-hr{
+	border:1px solid #ddd;
+}
+.user-conf-ul,.user-confin-div,.paper-scan,.paper-scan li,.paper-confin-div{
+	width:720px;
+	margin:0 auto;
+}
+.user-conf-ul li{
+	height:32px;
+	line-height:32px;
+	text-align: center;
+	font-size:16px;
+}
+
+.user-confin-div ul li{
+	height:45px;
+	line-height:45px;
+	text-align: center;
+	font-size:14px;
+	border-bottom:1px solid #eee;
+}
+.paper-confin-div ul{
+	border-bottom:1px solid #eee;
+}
+.paper-confin-div ul li{
+	height:45px;
+	line-height:45px;
+	font-size:14px;
+}
+.user-conf-ul li,.user-confin-div ul li{
+	width:90px;
+	
+}
+.uconfbtn{
+	margin-top:80px;
+}
+.user-conf{
+	float:left;
+}
+.col-conf{
+	width:80px;
+	margin-right:20px;
+	margin-left:20px;
+}
+.uconf-save{
+	float:left;
+}
+.col-conf-button{
+
+	width:150px;
+}
+.answer-input{
+	width:200px;
+}
+.end-exam-h4,.end-exam-h3{
+	text-align: center;
+}
+.fix-menu{
+	width:200px;
+	height:35px;
+}
+.foot{
+	border-top: 1px solid #ddd;
+	padding: 40px 0;
+	text-align: center;
+	color: #777;
+}
+
+#back-to-top
+{
+    bottom: 65px;
+    display: none;
+    width: 44px;
+    height: 44px;
+    position: fixed;
+    right:5%;
+    background:#fff url(../images/backtop.png) no-repeat;
+    border:1px soild #005580;
+    filter:alpha(opacity=80); 
+	-moz-opacity:0.8; 
+	opacity:0.8;
+	border-radius:10px;
+	z-index:999;
+}
+
+input.form-control.user-score {
+	margin-left:365px;
+}
+.col-conf.col-conf-button.sp-button {
+margin-right: -55px;
+}
+.test-end{
+	text-align: center;
+}
+button.btn.btn-default.user_btn.btn-back.sp-button {
+margin: 70px 155px;
+}
+bt-div-a{
+	width:80px;
+	height:34px;
+}
+#fullbg { 
+background-color:gray; 
+left:0; 
+opacity:0.5; 
+position:absolute; 
+top:0; 
+z-index:3; 
+filter:alpha(opacity=50); 
+-moz-opacity:0.5; 
+-khtml-opacity:0.5; 
+} 
+#dialog{ 
+background-color:#fff; 
+height:400px; 
+left:50%; 
+margin:-200px 0 0 -200px; 
+padding:1px; 
+position:fixed !important; /* 浮动对话框 */ 
+position:absolute; 
+top:50%; 
+width:400px; 
+z-index:5; 
+border-radius:5px; 
+display:none; 
+} 
+#dialog p { 
+margin:0 0 12px; 
+height:24px; 
+line-height:24px; 
+background:#CCCCCC; 
+} 
+#dialog p.close { 
+text-align:right; 
+}
+
+
+
+
+.sky-form .fsection{
+	margin-bottom: 30px;
+}
+.
+
+
+.sky-form .input{
+	position: relative;
+	display: block;
+}
+.sky-form .input input
+ {
+	display: block;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	height: 39px;
+	padding: 8px 10px;
+	outline: none;
+	
+	background: #fff;
+	font: 15px/19px 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #404040;
+	
+}
+
+
+
+
+
+.sky-form .tooltip {
+	position: absolute;
+	z-index: 1;
+	left: -9999px;
+	padding: 2px 8px 3px;
+	font-size: 11px;
+	line-height: 16px;
+	font-weight: 400;
+	background: #0088cc;
+	color: #fff;
+	opacity: 0;
+	transition: margin 0.3s, opacity 0.3s;
+	-o-transition: margin 0.3s, opacity 0.3s;
+	-ms-transition: margin 0.3s, opacity 0.3s;
+	-moz-transition: margin 0.3s, opacity 0.3s;
+	-webkit-transition: margin 0.3s, opacity 0.3s;
+}
+.sky-form .tooltip:after {
+	content: '';
+	position: absolute;
+}
+.sky-form .input input:focus + .tooltip {
+	opacity: 1;	
+}
+
+.sky-form .tooltip-top-right {
+	bottom: 100%;
+	margin-bottom: 15px;
+}
+.sky-form .tooltip-top-right:after {
+	top: 100%;
+	right: 16px;	
+	border-top: 4px solid #0088cc;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
+}
+.sky-form .input input:focus + .tooltip-top-right {
+	right: 0;
+	left: auto;
+	margin-bottom: 5px;
+}
+
+
+
+.sky-form .tooltip-right {
+	top: 9px;
+	white-space: nowrap;
+	margin-left: 15px;
+}
+.sky-form .tooltip-right:after {
+	top: 6px;
+	right: 100%;
+	border-top: 4px solid transparent;
+	border-right: 4px solid #0088cc;
+	border-bottom: 4px solid transparent;
+}
+.sky-form .input input:focus + .tooltip-right {
+	left: 100%;
+	margin-left: 5px;
+}
+
+
+
+
+.sky-form .tooltip-bottom-right {
+	top: 100%;
+	margin-top: 15px;
+}
+.sky-form .tooltip-bottom-right:after {
+	bottom: 100%;
+	right: 16px;	
+	border-right: 4px solid transparent;
+	border-bottom: 4px solid #0088cc;
+	border-left: 4px solid transparent;
+}
+.sky-form .input input:focus + .tooltip-bottom-right {
+	right: 0;
+	left: auto;
+	margin-top: 5px;
+}
+
+
+.sky-form .input:hover input{
+	border-color: #8dc9e5;
+}
+.sky-form .rating input + label:hover,
+.sky-form .rating input + label:hover ~ label {
+	color: #2da5da;
+}
+.sky-form .button:hover {
+	opacity: 1;
+}
+.sky-form .state-error input,
+{
+	background: #fff0f0;
+}
+
+.sky-form .state-error + em {
+	display: block;
+	margin-top: 6px;
+	padding: 0 1px;
+	font-style: normal;
+	font-size: 11px;
+	line-height: 15px;
+	color: #ee9393;
+	margin-left: 28%;
+float: left;
+}
+
+
+
